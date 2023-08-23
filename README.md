@@ -30,8 +30,11 @@ For a much more detailed report, go to: Document Classifers.pdf
 # File Names
 The files that contain the final models are:
 NBwithNLP.py
+
 SVMFinal.py
+
 LogisticRegression.py
+
 Random Forest.py
 
 The rest are debug/gridsearch files.
