@@ -6,6 +6,7 @@ Succesfully implemented various models and spent time optimizing their parameter
 The models that were implemented are:
 
   i) Multinomial Naive Bayes
+  
  ii) Support Vector Machine (SVM)
  
 iii) Random Forest Classifier
