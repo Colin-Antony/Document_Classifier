@@ -27,7 +27,7 @@ Therefore, the best model to use for text classification is SVM. However, if you
 
 For a much more detailed report, go to: Document Classifers.pdf
 
-#File Names
+# File Names
 The files that contain the final models are:
 NBwithNLP.py
 SVMFinal.py
