@@ -26,3 +26,12 @@ o	Random Forest Classifier (almost same as LR)
 Therefore, the best model to use for text classification is SVM. However, if you prefer shorter computational times while training the model, use Naïve Bayes.
 
 For a much more detailed report, go to: Document Classifers.pdf
+
+#File Names
+The files that contain the final models are:
+NBwithNLP.py
+SVMFinal.py
+LogisticRegression.py
+Random Forest.py
+
+The rest are debug/gridsearch files.
