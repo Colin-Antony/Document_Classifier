@@ -1,0 +1,7 @@
+joblib
+sklearn==1.2.2
+re
+nltk
+
+fastapi
+uvicorn
