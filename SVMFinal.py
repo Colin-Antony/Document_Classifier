@@ -1,4 +1,4 @@
-import pickle
+import joblib
 import re
 import nltk
 from nltk.corpus import stopwords
@@ -61,5 +61,5 @@ print(f"Accuracy: {accuracy}")
 print(classification_report(y_test, predicted,
                             target_names=newsgroups_data.target_names))
 
-filename = "SVM_Text_Classifier.sav"
-pickle.dump(svm_classifier, open(filename,'wb'))
+filename = 'Deployed_SVM_Text_Classifier/SVM_Text_Classifier.joblib'
+joblib.dump(svm_classifier, filename)

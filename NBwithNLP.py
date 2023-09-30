@@ -72,8 +72,9 @@ print(f"Accuracy: {accuracy}")
 print(classification_report(y_test, predicted,
                             target_names=newsgroups_data.target_names))
 
-filename = 'nb_pipeline.sav'
+filename = 'nb_pipeline.joblib'
 joblib.dump(nb_pipeline, filename)
+
 
 def predict_category(s, train=newsgroups_data, model=nb_pipeline):
     pred = model.predict([s])
