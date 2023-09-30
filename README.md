@@ -1,3 +1,5 @@
+Go to the README in Deployed_SVM_Text_Classifier if you want to run the deployed model.  
+
 # Document_Classifier
 Compared different models' accuracy in Document Classification.
 
