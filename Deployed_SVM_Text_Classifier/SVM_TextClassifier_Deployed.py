@@ -4,7 +4,6 @@ import joblib
 from Load_Dependencies import *
 from fastapi import FastAPI
 import uvicorn
-from Sentence_Verify import ver_sentence
 
 SVM_classifier = FastAPI()
 
